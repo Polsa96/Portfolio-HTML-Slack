@@ -1,0 +1,183 @@
+.main{
+
+    margin: 10px 0 0 0;
+
+    //PRIMERA PARTE
+    &--cont{
+        padding: 50px 5vw 0 5vw;
+
+        h2{
+            font-size: 1.6rem;
+            font-weight: 900;
+            margin:0 0 1rem 0;
+        }
+
+        p{
+            margin:0 0 1rem 0
+        }
+
+        a{
+            color:#1264a3;
+            padding:0 0 10rem 0;
+        }
+
+        &--videos{
+            margin: 2rem 0 0 0;
+            &--start{
+                position:relative;
+                width:100%;
+                max-width:30rem;
+                
+
+                img{
+                    width:100%;
+                    max-width:30rem;
+                    border-radius:10px;
+                }
+
+                img:hover ~ button{
+                    background-color:#1264a3;
+                }
+
+                button{
+                    position:absolute;
+                    bottom:15px;
+                    right:15px;
+                    width:5.5rem;
+                    height:4rem;
+                    background-color:#36c5f0;
+                    
+                    .triangle{
+                        width: 0; 
+                        height: 0; 
+                        border-top: 8px solid transparent;
+                        border-bottom: 8px solid transparent;
+                        border-left: 16px solid whitesmoke;
+                        margin: 0 0 0 37px;
+                        
+                    }
+
+                    
+                }
+
+                
+            }
+            
+
+            p{
+                font-size: 0.8rem;
+                font-weight:700;
+            }
+        }
+    }
+
+
+    //SEGUNDA PARTE
+
+    &--second{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background-color:#f6efe8;
+        padding: 0 5vw 0 5vw;
+
+        h1{
+            margin: 40px 0 40px 0;
+            font-weight:900;
+        }
+
+        &--numbers{
+            div{
+                background-color:#4a154b;
+                width: 40px;
+                height:40px;
+                border-radius:5px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+
+                p{
+                    color:whitesmoke;
+                    font-weight: 900;
+                    font-size: 1.3em;
+                }
+            }
+
+            &--title{
+                margin:10px 0 10px 0;
+                font-weight:bold;
+            }
+
+            &--paragraph{
+                margin:0 0 50px 0;
+
+                a{
+                    color:#1264a3;
+                    text-decoration:underline;
+                }
+            }
+
+        }
+
+        &--examine{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            width: 300px;
+            background-color:white;
+            padding: 15px 15px 10px 15px;
+
+            img{
+                margin: 0 0 20px 0;
+            }
+
+            &--functions{
+                font-size:0.9rem;
+                color:grey;
+            }
+
+            &--text{
+                font-size:1.5rem;
+                font-weight:bold;
+            }
+
+            &--link{
+                margin:60px 0 0 0;
+                font-size:0.8rem;
+                font-weight:bold;
+                text-transform: uppercase;
+                color:#1264a3;
+                letter-spacing:0.5pt;
+                
+            }
+
+
+        }
+
+        &--buttons{
+            display:flex;
+            justify-content: center;
+            margin:30px 0 30px 0;
+
+            &--elected{
+                width:13px;
+                height:13px;
+                border-radius:50%;
+                background-color:#611f69;
+                margin: 0 10px 0 10px;
+            }
+
+            &--no-elected{
+                width:13px;
+                height:13px;
+                border-radius:50%;
+                background-color:#c5bfba;
+                margin: 0 10px 0 10px;
+            }
+        }
+
+
+    }
+
+}

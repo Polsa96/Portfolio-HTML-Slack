@@ -1,0 +1,47 @@
+.presentation{
+    padding: 100px 5vw 60px 5vw;
+    background-color:#f6efe8;
+
+    h1{
+        font-weight: 900;
+        font-size: 3rem;
+        margin: 1rem 0 1rem 0;
+    }
+    p{
+        margin: 1rem 0 1rem 0;
+    }
+
+    &--try{
+        background-color:#611f69;
+        font-weight: 900;
+        letter-spacing:0.5pt;
+    }
+
+    &--register{
+        margin: 1rem 0 1rem 0;
+        background-color:
+        #4285f4;
+        font-weight: 900;
+        letter-spacing:0.5pt;
+    }
+
+    &--slide{
+        max-width:100%;
+        margin: 20px 0 45px 0;
+
+    }
+
+    &--brands{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-wrap: wrap;
+
+        img{
+            margin: 20px 10px 0px 10px;
+        }
+
+    }
+
+}
+

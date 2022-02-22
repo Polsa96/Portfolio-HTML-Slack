@@ -1,0 +1,74 @@
+.footer{
+    &--up{
+        background-color:#4a154b;
+        padding:60px 5vw 0 5vw;
+
+        p{
+            color:whitesmoke;
+            text-align: center;
+            font-weight:900;
+            font-size: 2rem;
+            line-height: 30pt;
+        }
+        
+
+        &--try{
+            margin:15px 0 15px 0;
+            background-color:whitesmoke;
+            color:#4a154b;
+            font-weight: 900;
+            letter-spacing:0.5pt;
+        
+
+        }
+
+        &--sell{
+            margin:0 0 50px 0;
+            border:1px solid whitesmoke;
+            background-color:#4a154b;
+            font-weight: 900;
+            letter-spacing:0.5pt;
+        }
+    }
+
+
+    &--down{
+        margin: 3rem 5vw 6rem 5vw;
+
+        img{
+            width:50px;
+        }
+
+        &--info{
+            display:flex;
+            flex-wrap:wrap;
+
+            @media(min-width:$tablet){
+                justify-content: space-around;
+            }
+
+            
+
+            &--unit{
+                margin: 2rem 0.5rem 0 0;
+                width: 8.5rem;
+                
+
+                h1{
+                    text-transform:uppercase;
+                    font-weight: 900;
+                    font-size:0.9rem;
+                }
+
+                p{
+                    font-size:0.8rem;
+                    line-height: 15pt;
+                    margin: 1rem 0 0 0;
+                }
+            }
+        }
+    }
+
+
+
+}
